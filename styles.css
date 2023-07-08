@@ -17,6 +17,7 @@ body {
     padding: 18px 36px;
 }
 
+
 /* nave related style*/
 nav {
     display: flex;
@@ -203,4 +204,39 @@ main {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    padding: 10px;
+    padding-left: 0;
+}
+
+#btn {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+footer {
+    background: #dbc3b1;
+    display: flex;
+
+    padding: 130px 230px;
+    gap: 100px;
+}
+
+
+
+.footer-column {
+    width: 50%;
+    text-align: left;
+    padding-left: 230px;
+}
+
+input,
+textarea {
+    display: block;
+  margin: 25px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+   
 }
